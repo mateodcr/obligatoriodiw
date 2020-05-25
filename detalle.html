@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Titulo de la página-->
+        <title>Pickle Rick!</title>
+    <!--Etiquetas META Relevantes-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pickle Rick!">
+    <meta name="keywords" content="Rick and morty, serie, pickle, rick, C-137, schwifty">
+        <!--Enlace a CSS-->
+        <link rel="stylesheet" href="css/estilos.css">
+        <!--Enlace a Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body id="bodyDetalle">
+     <!--HEADER-->
+     <header id="headerDetalle">
+        <nav>
+            <figure id="logo">
+                <img src="/img/logo(2).png" alt="Logo Rick and Morty" title="Rick and Morty">
+            </figure>
+            <ul>
+                <!--PREGUNTAR SI ESTOS LINKS SON DENTRO DE LA MISMA PAGINA-->
+                <li id="resena"> <a href="">RESEÑA</a></li><li id="capitulos"> <a href="">CAPITULOS</a></li><li id="opiniones"> <a href="">OPINIONES</a></li>
+            </ul>
+        </nav>        
+    </header>
+
+    <!--IMAGEN PRINCIPAL-->
+    <figure class="imagenPrincipal" id="detalle">
+        <section id="titulo">
+            <h1>Pickle Rick</h1>
+            <h2>Capitulo 3</h2>
+            <h3>Temporada 3</h3>
+        </section>
+    </figure>
+
+    <main>
+    <!--RESUMEN-->
+    
+    <h2>RESUMEN</h2>
+
+    <section id="contenedorResumen">
+    
+        <figure>
+            <!--La imagen esta en el background-->
+        </figure>
+    
+        <article>
+            <h4><img src="/img/stopwatch.png" alt=""> 23 Minutos</h4>
+            <h4>Anthony Chun</h4>
+            <p>El excentrico cientifico Rick Sanchez se transforma en un pepinillo justo antes de su cita de terapia
+                familiar. El episodio relata las aventuras de Rick como pepinillo y la ida en conjunto con su familia a la
+                consulta de terapia familiar</p>
+        </article>
+    
+        <section id="ranking">
+            <h3>Ranking Espectadores</h3>
+    
+            <table>
+                <tr>
+                    <td>1ro</td>
+                    <td>Rickmancing the Stone</td>
+                    <td>2.860.000</td>
+                </tr>
+    
+                <tr>
+                    <td>2do</td>
+                    <td>Vindicators 3: The Return of Worldender</td>
+                    <td>2.660.000</td>
+                </tr>
+    
+                <tr>
+                    <td>3ro</td>
+                    <td>The Rickchurian Mortydate</td>
+                    <td>2.600.000</td>
+                </tr>
+    
+                <tr>
+                    <td>4to</td>
+                    <td>Morty's Mind Blowers</td>
+                    <td>2.510.000</td>
+                </tr>
+    
+                <tr>
+                    <td>5to</td>
+                    <td>The ABC's of Beth</td>
+                    <td>2.490.000</td>
+                </tr>
+            </table>
+        </section>
+    
+    </section>
+    
+    <!--GALERIA-->
+    <h2>GALERIA</h2>
+    <section id="contenedorGaleria">
+       
+        <figure>
+            <img src="/img/picklerick2.jpg" alt="Pickle Rick grabando" title="Pickle cam" id="img1">
+            <img src="/img/picklerick31.jpg" alt="Rick vs Ratas" title="Pickle Rick contra las ratas" id="img2">
+            <img src="/img/picklerick41.jpg" alt="Rick y la terapeuta" title="Rick en terapia" id="img3">
+            <img src="/img/picklerick5.jpg" alt="Rick con familia en el auto" title="En camino a terapia" id="img4">
+            </figure>
+
+    </section>
+
+    <!--TU OPINION-->
+
+    <h2>TU OPINION</h2>
+    <section id="contenedorOpinion">
+        
+        
+        <form action="#">
+        
+            <fieldset id="datos">
+        
+                <label for="nombreCompleto">Nombre Completo</label>
+                <input type="text" name="nombreCompleto" id="nombreCompleto" class="textEntry" placeholder="Nombre y apellido">
+        
+                <label for="pais">Pais</label>
+                <select name="pais" id="pais">
+                    <option value="0" selected>Seleccione su pais</option>
+                    <optgroup label="America">
+                        <option value="1">Uruguay</option>
+                        <option value="2">Argentina</option>
+                    <optgroup label="Europa">
+                        <option value="3">Alemania</option>
+                        <option value="4">Irlanda</option>
+                </select>
+        
+                <label for="personajeFavorito">Personaje Favorito</label>
+                <input type="text" name="personajeFavorito" id="personajeFavorito" class="textEntry"
+                    placeholder="Cual es tu personaje favorito?">
+        
+            </fieldset>
+        
+            <fieldset id="texto">
+        
+                <label for="mensaje">Mensaje</legend>
+                <textarea id="mensaje" rows="8" cols="48"></textarea>
+        
+            </fieldset>
+        
+            <input id="formSubmit" type="submit" value="PUBLICAR">
+        
+        </form>
+       
+    </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer>
+        <p>Todos los derechos reservados - 2020</p>
+        <ul>
+            <li id="instagram"><a href="https://www.instagram.com/rickandmorty/?hl=es-la"></a></li><li id="facebook"><a href="www.facebook.com/RickandMorty/"></a></li><li id="twitter"><a href="https://twitter.com/RickandMorty"></a></li>
+        </ul>
+    </footer>
+    
+    </body>
+</html>

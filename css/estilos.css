@@ -1,0 +1,604 @@
+/* RESETEO CSS */
+*{margin:0; padding:0;}
+
+/*------------*/
+/*----BODY----*/
+/*------------*/
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: greenyellow;
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Shadows Into Light', cursive;
+    
+}
+
+#bodyIndex{
+  background-image: url(/img/fondo3.jpg) ;
+  background-position: 0 -70px;
+}
+
+#bodyDetalle{
+  background-image: url(/img/picklerick1.jpg) ;
+  background-position: 0 -200px;
+
+}
+
+#resena1, #capitulos1{
+  margin: 120px;
+}
+
+/*-----------------------*/
+
+.seccion{
+  margin-top: 50px;
+}
+
+main{
+  width: 800px;
+  margin: 0 auto;
+}
+
+#headerIndex{
+  height: 80px;
+  width: 1000px;
+  position: fixed;
+  background-image: url(/img/fondo3.jpg);
+  background-position: 0 -70px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+#headerDetalle{
+  height: 80px;
+  width: 1000px;
+  position: fixed;
+  background-image: url(/img/picklerick1.jpg);
+  background-position: 0 -200px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logo{
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px ;
+}
+
+.imagenPrincipal{
+  height: 600px;
+  
+}
+
+#index{
+  background-position: 200px 0;
+  background-size: contain;
+}
+
+#detalle{
+  
+  background-size: cover;
+  background-position: 0 -180px;
+  
+}
+
+#titulo{
+  text-align: center;
+  padding-top: 150px;
+  color:greenyellow;
+  text-shadow: 2px 5px 2px black;
+  
+}
+
+/*-----------------------*/
+/*----TITULOS DETALLE----*/
+/*-----------------------*/
+
+#titulo h1{
+  font-size: 60px;
+  letter-spacing: 30px;
+  font-weight: bold;
+  
+}
+
+#titulo h2{
+  font-size: 40px;
+  letter-spacing: 20px;
+}
+
+#titulo h3{
+  font-size: 40px;
+  letter-spacing: 20px;
+}
+
+#index, #detalle{
+  min-height: 600px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+}
+
+header figure{
+  height: 80px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+  
+}
+
+/*-------------------*/
+/*----BOTONES NAV----*/
+/*-------------------*/
+
+header li {
+  display: inline-block; 
+}
+  
+header li a {
+  display: block;
+  color:greenyellow;
+  border-radius: 20px;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  border: solid 3px transparent;
+  width: 80px;
+  margin-right: 5px;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgb(0, 195, 255);
+  letter-spacing: 3px;
+  font-size: 15px;
+}
+
+header li a:hover {
+  color: rgb(0, 195, 255);
+  background-color: black;
+  border: solid 3px greenyellow;
+  text-shadow: 0 0 10px greenyellow;
+}
+
+/*--------------*/
+/*----RESENA----*/
+/*--------------*/
+
+#contenedorResena img {
+  width: 250px ;
+  margin-top: 50px;
+}
+
+#contenedorResena{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: greenyellow;
+  text-shadow: 1px 1px 2px green;
+  font-family: 'Lemonada', cursive;
+  background-color: rgba(0, 0, 0, 0.699);
+  padding: 10px 0 10px 0;
+  border-radius: 10px;
+}
+
+#contenedorResena p {
+  font-size: 12px;
+      
+}
+
+main h2{
+  font-size: 60px;
+  letter-spacing: 40px;
+  text-shadow: 2px 5px 2px black;
+  margin-top: 50px;
+}
+
+#contenedorResena section {
+  margin-top: 20px;
+  margin-left: 20px;
+  
+}
+
+#contenedorResena section h3{
+  font-size: 35px;
+  font-family:'Shadows Into Light', cursive;
+  text-shadow: 2px 2px 2px green;
+  margin-bottom: 10px;
+  letter-spacing: 5px;
+}
+  
+#contenedorResena section li{
+  margin-top: 5px;
+  font-size: 14px;
+  list-style: url(/img/list.png);
+}
+
+  /*-----------------*/
+  /*----CAPITULOS----*/
+  /*-----------------*/
+
+#contenedorCapitulos{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  overflow: hidden;
+      
+}
+
+#contenedorCapitulos article{
+  background-color: rgba(0, 0, 0, 0.699);
+  height: 300px;
+  border-radius: 10px;
+}
+
+#contenedorCapitulos figure  {
+  width: 150px;
+  height: 300px;
+  float: left;
+  margin-right: 10px;
+  border-radius: 10px 0 0 10px;
+}
+
+#contenedorCapitulos aside {
+  width: 200px;
+  float: left;
+  margin-right: 10px;
+}
+
+#contenedorCapitulos aside p {
+  color: greenyellow;
+  text-shadow: 1px 1px 2px green;
+  font-family: 'Lemonada', cursive;
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+
+#contenedorCapitulos aside h3{
+  letter-spacing: 5px;
+  font-size: 25px;
+}
+
+#contenedorCapitulos aside h4 {
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+#contenedorCapitulos a{
+  display: block;
+  background-color: black;
+  border: solid 2px transparent;
+  color: greenyellow;
+  text-shadow: 0 0 10px rgb(0, 195, 255);
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 4px;
+  margin-top: 15px;
+  text-decoration: none;
+  
+}
+
+#contenedorCapitulos a:hover{
+  color: rgb(0, 195, 255);
+  text-shadow: 0 0 10px greenyellow;
+  
+}
+
+#capitulo1 figure{
+  background-image: url(/img/meeseeks.jpg);
+  background-size: cover;
+  background-position: -20px 0;
+}
+
+
+#capitulo2 figure{
+  background-image: url(/img/picklerick1.jpg);
+  background-size: cover;
+  background-position: -150px 0;
+}
+
+#capitulo3 figure{
+  background-image: url(/img/fondo1.jpg);
+  background-size: cover;
+  background-position: -175px 0;
+}
+
+#capitulo4 figure{
+  background-image: url(/img/potion.jpg);
+  background-size: cover;
+  background-position: -180px 0;
+}
+
+  /*-------------------*/
+  /*----COMENTARIOS----*/
+  /*-------------------*/
+
+#contenedorOpiniones{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+  
+}
+
+#listaComentarios li {
+  height: 100px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  background-color: rgba(0, 0, 0, 0.699);
+  border-radius: 10px;
+}
+
+li img {
+  width: 70px;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-top: 17px;
+  float: left;  
+}
+
+li aside {
+  width: 300px;
+  display: inline-block;
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin: 5px;
+  text-shadow: 0 0 10px green;
+}
+
+li aside p {
+  font-family: Lemonada, cursive;
+  font-size: 10px;
+  letter-spacing: 0;
+  
+}
+
+#comentarioDestacado img{
+  width: 240px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+#cajaTextoDestacado{
+  background-color: rgba(0, 0, 0, 0.699);
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  float: left;
+  font-size: 20px;
+  letter-spacing: 5px;      
+  text-shadow: 0 0 10px green;        
+}
+
+#txtComentarioDestacado{
+  font-family: Lemonada, cursive;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+    
+footer{
+  height: 90px;
+  background-color: black;
+  font-size: 15px;
+  letter-spacing: 3px;  
+  overflow: hidden;
+  text-align: right;
+  margin-top: 50px;
+}
+
+footer p {   
+  background-color: black;
+  display: inline-block;
+  margin-right: 170px;
+  margin-top: 30px;
+  
+  
+}
+
+footer ul {
+  float: right;
+  list-style-type: none;
+}
+
+footer li {
+  display: inline-block;
+}
+
+
+footer li a {
+  display: block;
+  margin-top: 20px;
+  margin-right: 10px;
+	width: 45px;
+  height: 45px;
+  border-radius: 50%;
+	background-image: url("/img/sprite3.png");
+}
+
+#instagram a{
+  background-position: -104px 45px;
+}
+#instagram a:hover{
+  background-position: -104px 0px;
+}
+
+#facebook a{
+  background-position: 1px 45px;
+}
+#facebook a:hover{
+  background-position: 1px 0px;
+}
+
+#twitter a{
+  background-position: 44px 45px;
+}
+#twitter a:hover{
+  background-position: 44px 0px;
+}
+
+/*---------------*/
+/*----DETALLE----*/
+/*---------------*/
+
+#contenedorResumen img{
+  width: 16px;
+}
+
+#contenedorResumen{
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+  gap: 10px;
+  padding:5px;
+  background-color: rgba(0, 0, 0, 0.699);
+  border-radius: 10px;
+}
+
+#contenedorResumen h3{
+  float: left;
+}
+
+#contenedorResumen figure{
+  width:300px;
+  height: 300px;
+  background-image: url(/img/Pickle_Rick.jpg);
+  background-size: cover;
+  background-position: -110px 0;
+  border-radius: 10px;
+  text-shadow: 0 0 10px black;
+}
+
+#contenedorResumen h3, h4{
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+ #contenedorResumen p {
+  font-family: Lemonada, cursive;
+  margin-top: 10px;
+  font-size: 12px;
+ }
+ 
+ table {
+  border-spacing: 5px;
+ }
+
+ #ranking td{
+  font-family: Lemonada, cursive;
+  margin-top: 10px;
+  font-size: 10px;
+  border: solid green 1px;
+  text-shadow: 0 0 10px black;
+  border-radius: 4px;
+  padding:3px;
+ }
+
+ #contenedorGaleria, #contenedorOpinion {
+   padding: 5px;
+   border-radius: 15px;
+   background-color: rgba(0, 0, 0, 0.699);
+  }
+
+ #contenedorGaleria figure{
+   display: grid;
+   grid-template-columns:  25% 25% 25% 25%;
+
+ }
+
+ #contenedorGaleria img{
+   width: 190px;
+   height: 190px;
+   margin: 0 auto;
+   border-radius: 15px;
+ }
+
+  /*---------------*/
+  /*----OPINION----*/
+  /*---------------*/
+
+  #contenedorOpinion{
+    height: 250px;
+    
+  }
+
+ #form{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 10px;
+   margin-bottom: 50px;
+   margin: 0 auto;
+   
+ }
+
+ #datos{
+   width: 47%;
+   display: block;
+   height: 180px;
+   padding: 10px;
+   text-shadow: 0 0 10px green;  
+   letter-spacing: 2px;
+   border: none;
+   float: left;
+ }
+
+ #texto{
+   width: 47%;
+   display: block;
+   height: 180px;
+   padding:10px;
+   text-shadow: 0 0 10px green;  
+   letter-spacing: 2px;
+   border: none;
+   float: right;
+ }
+
+ textarea{
+   resize: none;
+ }
+
+ #nombreCompleto, #pais, #personajeFavorito{
+   display: block;
+   width: 98%;
+
+ }
+
+ label {
+   font-size: 25px;
+   text-align: left;
+ }
+
+ #formSubmit{
+  background-color: black;
+  color:greenyellow;
+  text-shadow: 0 0 10px rgb(0, 195, 255);
+  border-radius: 10px;
+  padding: 5px;
+  border: solid 3px transparent;
+  width: 150px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 15px;
+  font-family: 'Shadows Into Light', cursive;
+  float: right;
+  margin-right: 15px;
+ }
+
+ #formSubmit:hover{
+  color:rgb(0, 195, 255);
+  text-shadow: 0 0 10px greenyellow;
+  cursor: pointer;
+ }
